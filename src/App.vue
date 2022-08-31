@@ -7,7 +7,7 @@
 <script>
 import { computed } from "vue";
 import {useRoute} from "vue-router";
-import {PUBLIC_LAYOUT} from "@/constants"
+import {PUBLIC_LAYOUT} from "@/constants";
 export default {
   setup(){
     const route = useRoute();
